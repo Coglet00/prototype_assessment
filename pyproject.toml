@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "create-assignment"
+version = "0.1.0"
+description = "CREATE assignment project managed with Poetry."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.135.3"
+pandas = "^3.0.2"
+streamlit = "^1.56.0"
+uvicorn = "^0.44.0"
+gspread = "^6.2.1"
+google-auth = "^2.49.2"
+python-dotenv = "^1.2.2"
+sentence-transformers = "^5.4.0"
+langdetect = "^1.0.9"
+ollama = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
+
+[build-system]
+requires = ["poetry-core>=1.7.0"]
+build-backend = "poetry.core.masonry.api"
