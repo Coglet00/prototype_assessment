@@ -16,7 +16,7 @@ dist/
 .vscode/
 
 #credentials
-credentials.json
+.env
 
 # Ignore Python environment and cache
 prototype/
