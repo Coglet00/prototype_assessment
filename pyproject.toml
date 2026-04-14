@@ -5,6 +5,7 @@ description = "CREATE assignment project managed with Poetry."
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 license = "MIT"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.15"
