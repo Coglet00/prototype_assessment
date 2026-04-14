@@ -4,6 +4,7 @@ import numpy as np
 import gspread
 from google.oauth2.service_account import Credentials
 
+# Set up Google Sheets API client
 
 scope = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -26,6 +27,8 @@ df_campaigns = pd.DataFrame(campaign_data)
 
 # Load pretrained sentence-transformer
 model = SentenceTransformer("all-mpnet-base-v2")
+
+# Function to encode creator profiles and cache the vectors for efficiency
 
 
 def encode_creators():
