@@ -31,3 +31,7 @@ venv/
 Lib/
 Scripts/
 *.egg-info/
+
+# Ignore pyproject.toml and poetry.lock
+pyproject.toml
+poetry.lock
