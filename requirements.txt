@@ -1,12 +1,7 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-# Use an even smaller version of torch
-torch==2.0.1+cpu
-# Switch to the light version of transformers
-transformers==4.30.2
-# Remove unnecessary sub-dependencies by being specific
 fastapi
 uvicorn
 pandas
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
+certifi
