@@ -1,0 +1,8 @@
+# Ignore Poetry files to prevent Vercel's 'uv' builder from crashing
+pyproject.toml
+poetry.lock
+
+# Ignore local environment files
+.env
+__pycache__/
+*.pyc
