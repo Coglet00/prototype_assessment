@@ -1,7 +1,9 @@
 import requests
+import streamlit as st
 
 
-BASE_URL = "http://localhost:8000"
+# Fetch your Vercel URL from Streamlit Secrets
+BASE_URL = st.secrets["BACKEND_URL"]
 
 
 def get_recommendations(campaign_name, campaign_desc):
