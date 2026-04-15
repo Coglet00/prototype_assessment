@@ -1,6 +1,4 @@
---index-strategy unsafe-best-match
---find-links https://download.pytorch.org/whl/cpu
-torch==2.2.1+cpu
+torch==2.2.1+cpu --find-links https://download.pytorch.org/whl/cpu
 transformers==4.38.0
 fastapi
 uvicorn
