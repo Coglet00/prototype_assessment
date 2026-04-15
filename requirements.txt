@@ -1,21 +1,12 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-
-# Core AI libraries (CPU versions)
-torch==2.1.0+cpu
-transformers==4.35.0
-
-# Essential backend and utility libraries
+--index-strategy unsafe-best-match
+--find-links https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+transformers==4.38.0
 fastapi
 uvicorn
 pandas
 google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
-altair
-anyio
-attrs
-blinker
-cachetools
 certifi
-cffi
 charset-normalizer
